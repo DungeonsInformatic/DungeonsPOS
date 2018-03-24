@@ -2,11 +2,10 @@ import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { RouterModule, Routes } from '@angular/router';
+import { RouterModule } from '@angular/router';
 
-import { SharedComponent } from './shared.component';
+import { routes } from './routes';
 
-const routes: Routes = [];
 @NgModule({
   imports: [
     CommonModule,
@@ -19,7 +18,6 @@ const routes: Routes = [];
     CommonModule,
     MatProgressSpinnerModule,
     RouterModule
-  ],
-  declarations: [SharedComponent]
+  ]
 })
 export class SharedModule { }
