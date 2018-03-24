@@ -1,0 +1,3 @@
+npm run buldle-report
+cd dist
+source-map-explorer #bundle-name
